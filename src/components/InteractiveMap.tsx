@@ -13,6 +13,7 @@ const InteractiveMap: React.FC<IInteractiveMap> = ({ onMapClick }) => {
       center={[-34.61315, -58.37723]}
       zoom={10}
       style={{ height: "100vh", width: "100%" }}
+      data-testid="map-container"
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
