@@ -1,5 +1,7 @@
+import InteractiveMap from "./components/InteractiveMap";
+
 function App() {
-  return null
+  return <InteractiveMap onMapClick={() => null} />
 }
 
 export default App
